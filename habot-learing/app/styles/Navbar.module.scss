@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+.navbar{
+    width: 100%;
+    background: $bg-color;
+    color: $text;
+
+    .navbarContainer{
+        width: 70%;
+        margin: 0px auto;
+
+        h1{
+            font-size: $font-large;
+        }
+    }
+
+    
+}

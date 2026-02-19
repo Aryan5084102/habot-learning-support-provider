@@ -1,11 +1,15 @@
+@import './variables.scss';
+
+
 .searchContainer {
   margin-bottom: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 
   .searchInput {
     width: 100%;
     max-width: 500px;
+    color: $text;
     padding: 0.8rem 1.2rem;
     border: 2px solid #e2e8f0;
     border-radius: 50px;
@@ -14,7 +18,7 @@
     transition: border-color 0.2s;
 
     &:focus {
-      border-color: #3b82f6;
+      border-color: $bg-color;
     }
   }
 }
