@@ -5,7 +5,7 @@ import { getProviderById } from '@/app/services/api';
 
 export default async function ProviderDetail({ params }: { params: { id: string } }) {
   // Fetch specific provider data
-  const provider = await getProviderById(params.id);
+  const provider = await getProviderById(params?.id);
 
   // Error handling: if provider not found, trigger Next.js 404 page
   if (!provider) {
