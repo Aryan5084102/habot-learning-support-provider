@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah Jenkins",
+    "specialization": "Dyslexia Support",
+    "location": "Dubai Marina",
+    "rating": 4.8,
+    "shortDescription": "Certified specialist in Orton-Gillingham approach.",
+    "longDescription": "Sarah has over 10 years of experience helping children overcome reading challenges using structured, multisensory techniques. She works closely with schools to ensure consistent support.",
+    "contactEmail": "sarah.j@example.com",
+    "phoneNumber": "+971 50 123 4567"
+  },
+  {
+    "id": "2",
+    "name": "Mindful Minds Clinic",
+    "specialization": "ADHD Coaching",
+    "location": "Jumeirah",
+    "rating": 4.5,
+    "shortDescription": "Executive functioning and behavioral coaching.",
+    "longDescription": "Our clinic focuses on helping children and teens with ADHD develop crucial executive functioning skills, time management, and emotional regulation strategies in a highly supportive environment.",
+    "contactEmail": "hello@mindfulminds.ae",
+    "phoneNumber": "+971 4 987 6543"
+  },
+  {
+    "id": "3",
+    "name": "Dr. Ahmed Tariq",
+    "specialization": "Autism Spectrum Support",
+    "location": "Downtown Dubai",
+    "rating": 4.9,
+    "shortDescription": "Pediatric psychologist specializing in ASD.",
+    "longDescription": "Dr. Tariq provides comprehensive developmental assessments and play-based therapy for children on the autism spectrum. He emphasizes family involvement to build a holistic support system at home.",
+    "contactEmail": "dr.ahmed@tariqclinic.com",
+    "phoneNumber": "+971 55 234 5678"
+  },
+  {
+    "id": "4",
+    "name": "Speak Easy Therapy",
+    "specialization": "Speech & Language Therapy",
+    "location": "Al Barsha",
+    "rating": 4.7,
+    "shortDescription": "Helping children find their voice with confidence.",
+    "longDescription": "Speak Easy Therapy offers evidence-based interventions for articulation, expressive language delays, and stuttering. Our interactive sessions make learning fun and engaging for early years learners.",
+    "contactEmail": "info@speakeasy.ae",
+    "phoneNumber": "+971 4 345 6789"
+  },
+  {
+    "id": "5",
+    "name": "Horizons Occupational Therapy",
+    "specialization": "Occupational Therapy",
+    "location": "Motor City",
+    "rating": 4.6,
+    "shortDescription": "Developing fine motor and sensory processing skills.",
+    "longDescription": "We help children develop the physical and cognitive skills necessary for daily activities. Our sensory-rich gym provides the perfect environment for addressing sensory processing disorders and dyspraxia.",
+    "contactEmail": "contact@horizonsot.com",
+    "phoneNumber": "+971 52 876 5432"
+  },
+  {
+    "id": "6",
+    "name": "Bright Sparks Tutoring",
+    "specialization": "General Learning Difficulties",
+    "location": "Silicon Oasis",
+    "rating": 4.4,
+    "shortDescription": "Tailored academic support for diverse learners.",
+    "longDescription": "Bright Sparks offers individualized tutoring plans for children who need extra time and different approaches to grasp standard curriculum concepts, particularly in foundational math and literacy.",
+    "contactEmail": "admin@brightsparks.ae",
+    "phoneNumber": "+971 50 345 9876"
+  }
+]
