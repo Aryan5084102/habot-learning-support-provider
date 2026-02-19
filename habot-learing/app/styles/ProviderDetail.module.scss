@@ -1,15 +1,23 @@
+@import './variables.scss';
+
 .container {
-  max-width: 800px;
+  width: 70%;
   margin: 2rem auto;
   padding: 0 1rem;
 
   .backButton {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
     margin-bottom: 1.5rem;
-    color: #3b82f6;
+    color: $main-text;
     text-decoration: none;
     font-weight: 500;
-    &:hover { text-decoration: underline; }
+
+    .icon{
+      width: 18px;
+    }
   }
 
   .card {
@@ -27,20 +35,49 @@
       margin-bottom: 1.5rem;
       
       h1 { margin: 0; color: #0f172a; }
-      .rating { color: #f59e0b; font-size: 1.25rem; font-weight: bold; }
+      .rating {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        background: #fffbeb;
+        color: $rating-color;
+        padding: 2px 8px;
+        border-radius: 6px;
+      }
     }
 
     .tags {
       display: flex;
       gap: 1rem;
       margin-bottom: 2rem;
-      .tag { background: #eff6ff; color: #1d4ed8; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.9rem; }
+      .tag {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        background: #eff6ff;
+        color: $main-text;
+        padding: 0.4rem 0.8rem;
+        border-radius: 6px;
+        font-size: 0.9rem; 
+        
+        .icon{
+          width: 17px;
+        }
+      }
     }
 
     .content, .contact {
       margin-bottom: 2rem;
       h2 { font-size: 1.1rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
       p { line-height: 1.7; color: #334155; }
+
+      .iconcontainer{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: $main-text;
+        cursor: pointer;
+      }
     }
   }
 }

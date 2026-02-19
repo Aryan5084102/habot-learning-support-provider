@@ -3,7 +3,6 @@
     "id": "1",
     "name": "Sarah Jenkins",
     "specialization": "Dyslexia Support",
-    "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&h=300&fit=crop",
     "location": "Dubai Marina",
     "rating": 4.8,
     "shortDescription": "Certified specialist in Orton-Gillingham approach.",
@@ -65,5 +64,72 @@
     "longDescription": "Bright Sparks offers individualized tutoring plans for children who need extra time and different approaches to grasp standard curriculum concepts, particularly in foundational math and literacy.",
     "contactEmail": "admin@brightsparks.ae",
     "phoneNumber": "+971 50 345 9876"
+  },
+  {
+    "id": "7",
+    "name": "The Writing Lab",
+    "specialization": "Dysgraphia Support",
+    "location": "Mumbai, Maharashtra",
+    "rating": 4.7,
+    "shortDescription": "Specialized support for fine motor skills and writing fluency.",
+    "longDescription": "The Writing Lab focuses on children who struggle with the physical act of writing or organizing thoughts on paper. We utilize assistive technology and kinesthetic learning to build confidence and legibility.",
+    "contactEmail": "hello@writinglab.in",
+    "phoneNumber": "+91 22 2222 3344"
+  },
+  {
+    "id": "8",
+    "name": "Dr. Elena Rossi",
+    "specialization": "Educational Psychologist",
+    "location": "Bangalore, Karnataka",
+    "rating": 4.9,
+    "shortDescription": "Expert cognitive and academic assessments.",
+    "longDescription": "Dr. Rossi provides comprehensive psycho-educational evaluations to identify learning gaps and giftedness. Her reports are widely used for Individual Education Plan (IEP) development in international schools.",
+    "contactEmail": "dr.rossi@psych-eval.in",
+    "phoneNumber": "+91 80 1111 2233"
+  },
+  {
+    "id": "9",
+    "name": "Pathways Learning Center",
+    "specialization": "Executive Functioning",
+    "location": "Gurugram, Haryana",
+    "rating": 4.6,
+    "shortDescription": "Helping students master organization and focus.",
+    "longDescription": "Pathways offers specialized coaching for students who struggle with 'getting started.' We teach practical tools for time management, working memory, and cognitive flexibility to improve academic independence.",
+    "contactEmail": "info@pathways-learning.in",
+    "phoneNumber": "+91 124 888 9900"
+  },
+  {
+    "id": "10",
+    "name": "Creative Kids Art Therapy",
+    "specialization": "Emotional Support Therapy",
+    "location": "Pune, Maharashtra",
+    "rating": 4.5,
+    "shortDescription": "Non-verbal therapeutic support through creative arts.",
+    "longDescription": "For children who find traditional talk therapy difficult, we use art and play to help them process anxiety related to learning difficulties. This holistic approach builds self-esteem and emotional resilience.",
+    "contactEmail": "studio@creativekids.in",
+    "phoneNumber": "+91 20 4444 5566"
+  },
+  {
+    "id": "11",
+    "name": "Little Steps Clinic",
+    "specialization": "Pediatric Occupational Therapy",
+    "location": "Chennai, Tamil Nadu",
+    "rating": 4.8,
+    "shortDescription": "Focusing on sensory integration and motor skill development.",
+    "longDescription": "Little Steps specializes in helping children with sensory processing disorders and developmental delays. Our Chennai-based facility is equipped with state-of-the-art sensory gyms to help children achieve their developmental milestones through play-based therapy.",
+    "contactEmail": "contact@littlesteps.in",
+    "phoneNumber": "+91 44 2345 6789"
+  },
+  {
+    "id": "12",
+    "name": "Vani Speech & Hearing",
+    "specialization": "Speech & Language Therapy",
+    "location": "Hyderabad, Telangana",
+    "rating": 4.7,
+    "shortDescription": "Comprehensive communication and hearing support.",
+    "longDescription": "Located in the heart of Hyderabad, Vani Clinic provides individualized speech therapy for stuttering, articulation disorders, and social communication challenges. We focus on evidence-based practices to help children communicate with confidence in multilingual environments.",
+    "contactEmail": "info@vanispeech.in",
+    "phoneNumber": "+91 40 9876 5432"
   }
+
 ]

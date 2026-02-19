@@ -2,11 +2,27 @@
   --primary-bg: #AAD6EC;
   --text-main: #000000;
   --font-xl: 24px;
+  --mainbg-color: #ffffff;
+  --dimbg-color: #f4f4f4;
+  --text-subtitle: #1e293b;
+  --rating-color: #d97706;
+  --main-text: #3b82f6;
+
+
 }
 
 body {
+  background-color: #f4f4f4;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  
 }

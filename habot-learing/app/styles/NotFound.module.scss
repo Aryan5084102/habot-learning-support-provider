@@ -1,3 +1,6 @@
+@import './variables.scss';
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -25,7 +28,7 @@
   }
 
   .homeButton {
-    background-color: #3b82f6;
+    background-color: $main-text;
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 8px;
@@ -34,7 +37,7 @@
     transition: background 0.2s;
 
     &:hover {
-      background-color: #2563eb;
+      background-color: $main-text;
     }
   }
 }
