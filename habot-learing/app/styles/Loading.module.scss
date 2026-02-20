@@ -10,6 +10,12 @@
   transform: translateZ(0);
   display: inline-block;
   margin: 350px auto;
+
+  @media (max-width: 768px){
+      font-size: 10px;
+      width: 5px;
+      height: 5px;
+  }
 }
 
 @keyframes mulShdSpin {

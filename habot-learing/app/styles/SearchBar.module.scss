@@ -6,6 +6,11 @@
   display: flex;
   justify-content: start;
 
+  @media (max-width: 768px){
+    width: 87%;
+    margin: 100px 25px 0px 25px;
+  }
+
   .searchInput {
     width: 100%;
     max-width: 500px;
@@ -18,7 +23,7 @@
     transition: border-color 0.2s;
 
     &:focus {
-      border-color: $bg-color;
+      border-color: $main-text;
     }
   }
 }
