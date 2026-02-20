@@ -2,7 +2,15 @@ import Link from 'next/link';
 import { ArrowLeft, Mail, MapPin, Phone, Star } from 'lucide-react';
 import { notFound } from 'next/navigation';
 import styles from '../../styles/ProviderDetail.module.scss';
-import { getProviderById } from '../../services/api'
+import { getProviderById, getProviders } from '../../services/api'
+
+export async function generateStaticParams() {
+  const providers = await getProviders(); 
+
+  return providers.map((provider: any) => ({
+    id: provider.id.toString(),
+  }));
+}
 
 export default async function ProviderDetail({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params;
