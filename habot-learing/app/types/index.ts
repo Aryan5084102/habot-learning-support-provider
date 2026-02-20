@@ -10,3 +10,10 @@ export interface Provider {
   contactEmail: string;
   phoneNumber: string;
 }
+
+
+export interface PaginationProps {
+  totalPage: number,
+  setCurrentPage: React.Dispatch<React.SetStateAction<number>>;
+  currentPage: number,
+}
